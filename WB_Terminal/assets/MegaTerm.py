@@ -281,7 +281,7 @@ while True:
     elif bash == "--version":
         display_file_content('info/version')
     elif bash == "about":
-        print("info/version")
+        display_file_content('info/version')
     elif bash == "about -dev":
         display_file_content('info/about-developer')
     elif bash == "clear":
