@@ -65,11 +65,11 @@ int	wB_atoi(char *str)
 
 char    *wB_strcpy(char *dest, char *src)
 {
-	size_t dest_len = wB_strlen(dest);
+	size_t src_len = wB_strlen(src);
 	while(*src)
 		*dest++ = *src++;
 	*dest = '\0';
-	return(dest - dest_len);
+	return(dest - src_len);
 }
 int     wB_sqrt(int nb)
 {
