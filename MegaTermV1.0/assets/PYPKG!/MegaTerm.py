@@ -77,9 +77,6 @@ def change_directory_relative(relative_path):
     except FileNotFoundError:
         print("Directory not found.")
 
-#relative_path = "../other_directory"  # Provide the relative path to the directory you want to change to
-#change_directory_relative(relative_path)
-
 # for read a file on black window
 def display_file_content(file_path):
     try:
@@ -224,16 +221,6 @@ while True:
     if bash == "htuse":
         print_file_content("info/htuse")
         print_slowly("\033[34mtry now by enter the command :\033[0m\n./play up[3] down[5] up[2] right[6] up[2] down[5]\n\033[31mif the command does not work please use your terminal or return to Move_The_Pen\n", 0.03)
-    elif bash.startswith("alias "):   # Alias is not working for now
-        alias_cmd = bash[6:]  # Alias is not working for now
-        alias_parts = alias_cmd.split("=")
-        if len(alias_parts) == 2:
-            alias_name = alias_parts[0].strip()                             # Alias is not working for now
-            alias_command = alias_parts[1].strip()
-            aliases[alias_name] = alias_command
-            print(f"Alias '{alias_name}' defined as '{alias_command}'.")
-        else:
-            print("Invalid alias command.")
     elif bash.startswith("cat "):
         filename = bash[4:]
         print_file_content(filename)
