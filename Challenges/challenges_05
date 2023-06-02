@@ -1,21 +1,17 @@
-					The Final challenge ! you oooonly have 1oo parameters max after ./play
+You only have 1ooo parameters max after ./play
+
+That's how it should be the output:
 
 
 
-
-
-
-
-
-					o	ooooooooo      o
-					o	o       o      o
-					o	o       o      o
-					ooooooooo       o      o
-					    o   o       o      o
-					    o   o       o      o
-					    o   o      ooo     o
-					    o   oooooooo ooooooo
-
-
-
-.
+	   ooooooooooooooooooooooooooooooooo
+	   o				   o
+	   o   oooooooooooooooooooooooooo  o
+	   ooooo			o  o
+	   o   oooooo	       		o  o
+	   o	    o   ooooooooooooooooo  o
+	   oooooo   o   o     		   o
+		o   o   o  ooooooooooooooooo
+		o   ooooo  o
+		o	   o
+		oooooooooooo
