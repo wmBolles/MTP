@@ -1,6 +1,3 @@
-#developed by wassim bolles: https://github.com/WASSIM-BOLLES
-#copyright 2023 © All Rights Reserved.
-
 import os
 import time
 import sys
