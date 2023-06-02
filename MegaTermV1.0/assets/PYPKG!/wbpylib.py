@@ -1,8 +1,3 @@
-#developed by wassim bolles: https://github.com/WASSIM-BOLLES
-#copyright 2023 © All Rights Reserved.
-
-#you can take this src code without problems.
-
 import os
 import time
 import sys
@@ -65,10 +60,6 @@ def create_file(file_name):
             print(f"File '{file_name}' created.")
     except IOError:
         print("Unable to create file.")
-
-
-
-import os
 
 def change_directory_relative(relative_path):
     try:
