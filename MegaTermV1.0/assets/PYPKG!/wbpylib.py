@@ -69,8 +69,3 @@ def change_directory_relative(relative_path):
         print(f"Changed directory to: {os.getcwd()}")
     except FileNotFoundError:
         print("Directory not found.")
-
-#relative_path = "../other_directory"  # Provide the relative path to the directory you want to change to
-#change_directory_relative(relative_path)
-
-
