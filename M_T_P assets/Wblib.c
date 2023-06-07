@@ -1,5 +1,3 @@
-#include <stdio.h>
-#include <unistd.h>
 #include <stdlib.h>
 
 int		wB_is64BitOS() {
