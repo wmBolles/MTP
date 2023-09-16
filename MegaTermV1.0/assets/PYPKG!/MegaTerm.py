@@ -247,15 +247,15 @@ while True:
             print(f"\033[37mDirectory '{directory}' not found.")
         except OSError:
             print(f"\033[37mFailed to remove directory '{directory}'.")
-    elif bash.startswith("rmfile "):
-        filename = bash[7:] 
-        try:
-            os.remove(filename)
-            #print(f"\033[37mFile '{filename}' removed.")
-        except FileNotFoundError:
-            print(f"\033[37mFile '{filename}' not found.")
-        except OSError:
-            print(f"\033[37mFailed to remove file '{filename}'.")
+    elif bash.startswith("./"):
+        file_path = bash[2:]
+        if os.path.exists(file_path) and os.path.isfile(file_path):
+            try:
+                subprocess.run(["./" + file_path], shell=True)
+            except Exception as e:
+                print(f"An error occurred while executing {file_path}: {str(e)}")
+            else:
+                print(f"File '{file_path}' not found or is not a regular file.")
     elif bash == "cmd" or bash == "--help" or bash == "help":
         print(all_table)
     elif bash == "ls":
