@@ -13,7 +13,7 @@ Move_The_Pen is a simple &amp; hard game developed with C and powered by "MegaTe
 
 <img src="https://github.com/WASSIM-BOLLES/Move_The_Pen_v1.0/blob/master/M_T_P%20assets/images/user.png">
 
-After that you can see all commands by entering ```cmd``` or ```--help``` 
+After that you can see all commands by entering ```help``` 
 
 # To learn How To Play The Game Please Enter The Command ``` htuse ``` in the MegaTerm
 <img src="https://github.com/WASSIM-BOLLES/Move_The_Pen_v1.0/blob/master/M_T_P%20assets/images/htuse.png">
