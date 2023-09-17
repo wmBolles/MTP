@@ -1,0 +1,21 @@
+--version :
+
+	--The MegaTerm version 1.0 : is made to help you use The "Move The Pen" Game.c, and has some useful terminal commands more such as [clear, cd , mkdir, rmdir, touch, rmfile, execute, cat, exit], but i work to develope the MegaTerm to become an useful and professional environment and full of professional tools that are used in networking and cyber security tests.
+for now i work to add some commands on MegaTerm version 1.1.2 like [alias, nano aditor, vim, git, installer and more...]
+	the next update on june 18, 23...
+
+	--Move The Pen version 1 : Move The Pen is a game based on C programming , In Algorithmic Sketcher, prepare to unlock a realm where imagination meets code. Immerse yourself in a captivating journey of artistic expression as you harness the power of C programming and the dynamic duo of argc and argv. This innovative text-based game propels you into a world where algorithms come alive on a canvas of infinite possibilities. With deft strokes of your keyboard, you navigate a virtual pen, breathing life into your ideas with every precise movement. As you traverse the grid, up, down, right, and left, an enchanting symphony of shapes and patterns emerges beneath your fingertips. Yet, Algorithmic Sketcher is not merely a game of exploration and discovery; it grants you the keys to an entire universe of algorithmic creativity. Unleash your inner artist and let your mind soar as you craft algorithms that control the pen's motion, color, and intricate designs. With boundless potential, Algorithmic Sketcher transcends traditional boundaries, empowering you to express your unique vision and create stunning masterpieces with every line of code. Step into this realm of endless artistry and prepare to witness the harmonious fusion of logic and aesthetics, where algorithms dance upon the canvas, leaving behind a trail of beauty and inspiration.
+
+for exemple :
+./play up up down down down down right right right right rigjt down down down down
+the next update : 
+	./play up[2] down[4] up[2] right[5] up[2] down[4]
+output :
+
+	o    o
+	o    o
+	oooooo
+	o    o
+	o    o
+	
+and i will give you some difficult challenges to do it

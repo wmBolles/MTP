@@ -1,0 +1,34 @@
+How to use :
+
+	So... I think You have The Pen NOW!
+and!  you can write anything...
+How : 
+
+WARNING:
+This game is made only for drawing geometric shapes, names or letters only,
+ and I am not responsible for any other drawing contrary to what I mentioned.
+ 
+-Your pen is actually on half of the paper 'o', and you need to move it to write something.
+-to do this you need to execute the 'play' file with MegaTerm,
+-but before you need to know how to 'Move The Pen', you have 4 commands with a digit,
+
+if you need to move the pen to up one time just enter after the ./executable : ./play
+if you need to move the pen to down : ./play
+if ...                 ...                  to right : ./play right
+...                    ...                   to left ... emmm that's really easy without stupid explaining     
+[...] you can choose any digit here.
+exemple : 
+./play right right right ...5 times up 3 left 5 down 3, i know it's so hard but the next update i will develope to become : ./play up[5] down[...]... 
+			ooooo
+			o   o
+			ooooo
+
+Easy game right ?
+... NO
+Because you only have x parameters max in every exercise.
+and... i will give you some HARD exercises to do it... you find it on challenge folder
+goodLuck...
+
+here is the link to push you challenge:
+https://github.com/WASSIM-BOLLES/MTP-challenges.git
+please push just the algorithm. : ./play ....
